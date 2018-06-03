@@ -1,7 +1,7 @@
 ## Extensions of basic Anki Cozmo Python SDK Tutorials
 
 #### See the [CozmoSongs](CozmoSongs) directory for Cozmo's singing ability.
-    cozmo_sings.py defines the main project used for Cozmo to sing
+    cozmo_sings.py defines the main project used for Cozmo to sing and primarily used for testing out new songs.
     cozmo_songs.py defines the different tunes Cozmo currently has in his repertoire.
     cozmo_listens.py allows cozmo to listen to verbal instructions and to sing, speak or exit the application.
         Based on https://gist.github.com/raproenca/ed1ab47c47da246512ef4d2f19cf2611
