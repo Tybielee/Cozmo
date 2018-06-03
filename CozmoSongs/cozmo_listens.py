@@ -7,6 +7,7 @@
 # Added documentation not existing in the original.
 # Extended by adding a Sing command to sing the songs previously created.
 # Extended by adding an Exit command rather than relying on keyboard input.
+# This file defines voices commands that can be given to the Cozmo robot to then perform.
 
 # pip3 install SpeechRecognition
 # pip3 install PyAudio
@@ -45,7 +46,7 @@ def cozmo_speaks(recognized, robot):
         Sends a speech event to the Cozmo robot if there were words to repeat besides the command words.
 
         Example:
-        "Cozmo say" would print an Index error.
+        "Cozmo say" would print the Index error message.
         "Cozmo say hello" would send the word hello to the cozmo robot to repeat.
     :param recognized:
         The string version of the audio input that was created by the recognizer.

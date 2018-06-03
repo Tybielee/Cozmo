@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 
+# This file defines songs and sends them to the Anik Cozmo robot when invoked.
+
 import time
+
 import cozmo
 
 NoteTypes = cozmo.song.NoteTypes
